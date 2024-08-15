@@ -1,0 +1,186 @@
+body{
+    background-color: #6b8e23;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    align-items: center;
+}
+
+#logo img{
+    max-width:30px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}
+
+header nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#apresentação, #descrição, #equipeprojeto, #formulário{
+    text-align: center;
+    line-height: 30px;
+    margin: 20px auto; 
+    padding: 5px;
+}
+
+#apresentação p{
+    font-size: 20px;
+    margin-bottom: 30px;  
+}
+
+#apresentação h1{
+    font-size: 70px;
+}
+
+#descrição{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 30px;
+    line-height: 20px;
+}
+
+#descrição h1{
+    font-size: 50px; 
+}
+
+#textosobre1, #textosobre2, #textosobre3, #textosobre4{
+    background-color: rgb(22, 22, 22);
+    font-size: 20px; 
+    line-height: 35px;   
+    text-align:justify;
+    margin: 40px 145px;
+    padding: 30px 40px ;
+    font-size: 20px;    
+    border-radius: 10px;
+}
+
+#descrição h2{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal;
+}
+
+#descrição h3{
+    font-size: 30px;
+    padding-top: 10px;
+    line-height: normal;
+}
+
+#imagensprodutomu img{
+    height: auto;
+    max-width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#imagensprodutouso img{
+    height: auto;
+    max-height: 380px;
+    max-width: 580px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#imagemprodutogrande img{
+    height: auto;
+    max-height: 500px;
+    max-width: 1550px;
+    position:relative;
+    margin: 10px;
+    border-radius: 10px;   
+}
+
+#equipeprojeto{
+    text-align: center;
+    padding: 20px;
+}
+
+#equipeprojeto h1{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#equipeprojeto p{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.membro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    color: #333;
+}
+
+.membro img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.membro h3{
+    margin-top: 20px;
+    font-size: 24px;
+    height: 30px;
+}
+
+.membro p{
+    font-size: 16px;
+    text-align: center;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+#equipeprojeto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input[type="text"], form input[type="email"]{
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"]{
+    padding: 10px 20px;
+    background-color: #507010;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
